@@ -1,0 +1,116 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+
+
+header {
+background-color: black;
+color: white;
+text-align: center;
+display: block;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: block;
+    
+
+}
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;}
+
+    header > p {
+    padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover, footer a:hover{
+    text-decoration:underline ;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;}
+
+section#img01 {
+    background-image: url(https://professorguanabara.github.io/projeto-cordel/imagens/background001.jpg);
+    background-position-x: right;
+    background-position-y: center;
+    }
+section#img02 { 
+background-image: url(https://professorguanabara.github.io/projeto-cordel/imagens/background002.jpg);
+}
+
+section.imagem{
+background-color: rgb(51, 51, 51);
+color: white;
+box-shadow: inset 6px 6px 13px 0px rgba(234, 181, 181, 0.47);
+background-size: cover;
+background-attachment: fixed;
+}
+section.imagem>p {
+    width: 700px;
+    background-color: black;
+}
+
+ section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+    display: block;
+}
+html,body{
+    min-height:100vh ;
+    background-color: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root {
+--fonte1: Verdana, Geneva, Tahoma, sans-serif;
+--fonte2: "Passion One", cursive;
+--fonte3: "Sriracha", cursive;
+}
+ footer{
+     background-color: black;
+     color:white;
+     text-align: center;
+     padding: 10px;
+     font-size: 16px ;
+     font-family: var(--fonte1);
+     
+     }    
+
