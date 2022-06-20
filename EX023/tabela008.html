@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento em Tabelas</title>
+    <style>
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+        width: 300px;
+       text-align: center;
+       border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th{
+            border: 1px solid black;
+            padding: 10px;
+}
+td,th{
+    border: 1px solid gray;
+    padding: 10px;
+}
+caption{
+font-size: 1.3em;
+font-weight: bold;
+padding: 10px;
+}
+.destaque{
+
+    background-color: green;
+}
+col.cnome{
+
+    background-color: aqua;
+}
+col.csexo {
+     background-color: yellow;
+}
+col.cidade{
+    background-color: yellow;
+}
+        </style>  
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+   <table>
+    <colgroup>
+    <col class="cnome">
+    <col class="csexo">
+    <col class="cidade">
+    <col class="cprofissao">
+    </colgroup>
+<caption>Cadastro</caption>
+<tr>
+<th scope="col">nome</th>
+<th scope="col">sexo</th>
+<th scope="col" >idade</th>
+<th scope="col">profissao</th>
+</tr>
+<tr>
+<td>Ana Maria</td>
+<td>Feminino</td>
+<td>25 anos</td>
+<td>Jornalista</td>
+</tr>
+<tr>
+    <td>Ana Maria</td>
+    <td>Feminino</td>
+    <td>25 anos</td>
+    <td>Jornalista</td>
+</tr>
+
+
+
+
+   </table> 
+</body>
+</html>
